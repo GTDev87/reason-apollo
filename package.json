@@ -40,8 +40,7 @@
   },
   "lint-staged": {
     "*.re": [
-      "bsrefmt --in-place",
-      "git add"
+      "bsrefmt --in-place"
     ]
   },
   "husky": {
