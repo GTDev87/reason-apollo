@@ -41,7 +41,7 @@ external makeApolloInMemoryCacheParams:
     ~dataIdFromObject: Js.t({..}) => string=?,
     ~fragmentMatcher: fragmentMatcher=?
   ) =>
-  _;
+  _ = "";
 
 let createInMemoryCache = (~dataIdFromObject=?, ~fragmentMatcher=?, ()) => {
   /* Apollo Client, looks for key in Object. Doesn't check if value is null  */

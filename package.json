@@ -38,16 +38,6 @@
     "react-apollo": "^3.1.5",
     "subscriptions-transport-ws": "^0.9.16"
   },
-  "lint-staged": {
-    "*.re": [
-      "bsrefmt --in-place"
-    ]
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
-  },
   "scripts": {
     "build": "bsb -make-world",
     "start": "bsb -make-world -w",
