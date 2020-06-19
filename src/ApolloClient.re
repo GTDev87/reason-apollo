@@ -48,7 +48,7 @@ type apolloClientObjectParam = {
   connectToDevTools: option(bool),
   queryDeduplication: option(bool),
 };
-[@bs.module "apollo-client"] [@bs.new]
+[@bs.module "@apollo/client"] [@bs.new]
 external createApolloClientJS: apolloClientObjectParam => generatedApolloClient =
   "ApolloClient";
 
